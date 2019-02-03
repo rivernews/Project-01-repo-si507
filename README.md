@@ -14,16 +14,11 @@ This project demostrate a simple Flask app and simulates a bank lookup system.
 
 1. Navigate to `http://localhost:5000/` and enjoy!
 
-1. Routes available are as below:
+1. Routes available and what they do are as below:
 
-    1. `http://localhost:5000/<bank_name>`
-    This will
-
-
-    1. `http://localhost:5000/dollar/<amount>`
-    1. `http://localhost:5000/yuan/<amount>`
-    1. `http://localhost:5000/pound/<amount>`
-    1. `http://localhost:5000/bank/<bank_name>/<currency>/<value>`
+    1. `http://localhost:5000/<bank_name>` greets you a short message from the bank, given the bank name specified by you.
+    1. `http://localhost:5000/dollar/<amount>`, `http://localhost:5000/yuan/<amount>` and `http://localhost:5000/pound/<amount>` give you a formal representation of the currency with the amount you specified.
+    1. `http://localhost:5000/bank/<bank_name>/<currency>/<value>` gives you a brief summary of the bank, given the name of the bank, the currency its using, and an amount of that currency, specified by you.
 
 
 ## Structure
