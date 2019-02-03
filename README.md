@@ -25,4 +25,4 @@ This project demostrate a simple Flask app and simulates a bank lookup system.
 
 All of the data model (i.e. classes) are defined in `lab3_code.py`, and the main Flask entry point is defined in `SI507_project1.py`.
 
-Since the routes are relatively simple, `SI507_project1.py` also contains all the routes instead of a saparate file.
+Since the routes are relatively simple, `SI507_project1.py` also contains all the routes. We don't have a saparated file for routes.
